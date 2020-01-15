@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find the precious!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul id="nav">
+                <li>FindThePrecious.com</li>
+                <li id="fellows">Fellows</li>
+                <li>Contact us</li>   
+            </ul>
+        </nav>
+        <p id="image1"> <img src=https://via.placeholder.com/1000x200 alt="image"></p>
+        <section >
+            <div ></div>
+        </section>
+        <section>
+            <h2>Fellows wanted dead (or alive if you want to eat them later)</h2>
+        </section>
+        <section class="carrousel">
+            <article><p> <img src="https://via.placeholder.com/320" alt="image1"></p></article>
+            <article><p> <img src="https://via.placeholder.com/320" alt="image2"></p></article>
+            <article><p> <img src="https://via.placeholder.com/320" alt="image3"></p></article>         
+        </section>
+        <form >
+            <h3>Contact us</h3>
+            <input type="email" placeholder="@">
+            <input type="text" placeholder="&#8962;">
+            <select name="select">
+                <option>"I have seen one of them"</option>
+                 <option>"I never have seen one of them"</option>
+            </select>
+            <textarea placeholder="Your message"></textarea>
+        </form>
+    </body>
+</html>
