@@ -1,39 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Find the precious!</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <nav>
-            <ul id="nav">
-                <li>FindThePrecious.com</li>
-                <li id="fellows">Fellows</li>
-                <li>Contact us</li>   
-            </ul>
-        </nav>
-        <p id="image1"> <img src=https://via.placeholder.com/1000x200 alt="image"></p>
-        <section >
-            <div ></div>
-        </section>
-        <section>
-            <h2>Fellows wanted dead (or alive if you want to eat them later)</h2>
-        </section>
-        <section class="carrousel">
-            <article><p> <img src="https://via.placeholder.com/320" alt="image1"></p></article>
-            <article><p> <img src="https://via.placeholder.com/320" alt="image2"></p></article>
-            <article><p> <img src="https://via.placeholder.com/320" alt="image3"></p></article>         
-        </section>
-        <form >
-            <h3>Contact us</h3>
-            <input type="email" placeholder="@">
-            <input type="text" placeholder="&#8962;">
-            <select name="select">
-                <option>"I have seen one of them"</option>
-                 <option>"I never have seen one of them"</option>
-            </select>
-            <textarea placeholder="Your message"></textarea>
-        </form>
-    </body>
-</html>
+
+/* barre du menu et box grise*/
+#nav{
+	list-style-type: none;
+	background-color: black;
+	color: grey;
+	font-size: 30PX;
+	height: 35px;
+	display: flex;
+	justify-content: flex-start;
+
+	margin: 0 20% 0 20%;
+	width: 1000px;
+	padding: 0;
+}
+
+li{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#fellows{
+	background-color: #C0C0C0;
+	color: black;
+	
+}
+
+#image1{
+	margin: 0 20% 0 20%;
+	width: 1000px;	
+}
+
+
+/* carrousel - Fellows wanted dead*/
+h2{
+	text-align: center;
+}
+
+.carrousel{
+	margin: 0 20% 0 20%;
+	display: flex;
+	width: 1000px;
+}
+
+article{
+	padding: 0 8px 0 8px;
+}
+
+
+/* formulaire de contact */
+h3{
+	text-align: left;
+	width: 1000px;
+	margin: 0 20% 2% 20%;
+}
+input, select {
+	width: 750px;
+	margin: 0 25% 0.7% 25%;
+	border-color: black;
+	border-width:1.4px;
+}
+
+
+
+textarea{
+	width: 750px;
+	height: 80px;
+	margin: 0 25% 0.7% 25%;
+	border-color: black;
+	order-width:1.4px;
+}
+
+
